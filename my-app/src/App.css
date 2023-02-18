@@ -1,0 +1,44 @@
+.Profile {
+  text-align: center;
+}
+
+.Profile-logo {
+  height: 40vmin;
+  border-radius: 100%;
+  border: 1px solid #ffffff;
+  transition: transform 2s ease;
+}
+
+.Profile-logo:hover {
+  transform: scale(1.1);
+  filter:drop-shadow(0 5px 3px #ffffff);
+  
+}
+
+
+
+.Profile-header {
+  background-color: #1b1919;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Profile-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: transform 2s ease;
+}
+
+.Profile-link:hover {
+  transform: scale(1.1);
+  border: 1px solid #ffffff;
+  border-radius: 70px;
+  padding: 5px;
+}
+
+

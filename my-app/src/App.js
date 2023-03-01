@@ -1,4 +1,4 @@
-
+import User from './User'
 import './App.css';
 
 function Profile() {
@@ -18,8 +18,12 @@ function Profile() {
           Here is my Github
         </a>
       </header>
+      
     </div>
   );
 }
 
+
 export default Profile;
+
+

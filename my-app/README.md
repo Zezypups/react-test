@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+**1.**
+1) Функция - один из видов подпрограммы, часть кода к которому можно обратится из любого другого места программы. Основная функции заключается в том, что кроме получения принятых функцией аргументов, выполнения действий и передачи результатов работы через параметры имеет еще одну особенность - она всегда должна возвращать результат. Вызов функции является выражением, с точки зрения языка программирования, может использоваться в других выражениях.
+2) Процедура в свою очередь является независимой частью программы, которая выполняет операции, но не возвращает результат. 
+3) Метод в ООП - функция или процедура, принадлежащая к какому-то классу или объекту(привязанная к объекту). Функция описанная внутри объекта или класса.
+4) Объект – структура данных, содержащая описание свойств внешнего объекта программирования. 
+5) Класс – описание структуры объекта и методов работы с ним. Своего рода шаблон, на базе которого строятся другие елементы структуры кода.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Метод .map() - один из популярных методов(способов) итерации массивов данных.
+Суть метода заключается в том что .map() создает массив вызывая определенную функцию для каждого элемента родительского массива.
 
-## Available Scripts
+Компоненты реакт - самостоятельные элементы, которые можно использвать любое количество раз.
+Пропсы реакт - входные данные реакт компонентов передаваемые от родительского компонента компоненту дочернему.
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Json - один из способов представления данных. Текстовый формат данных
+JavaScript Object Notation - описание объекта в JS.
+Структура данных представляется в виде пар ключ: значение
+Запись - неупорядоченное множество пар ключ: значение, заключенное в фигурные скобки.
+Массив - упорядоченное множество значение. Массив заключается в квадратные скобки.
+JSON - один из самых популярных методов обмена данными меду сервером и клиентом в Интернете(API и REST).
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+REST(Representational State Transfer - передача состояния представления)
+Набор правил (6 правил) о том как программисту организовать написание кода серверного веб-приложения, чтобы все системы легко обменивались данными и приложение можно было масштабировать.
+Сервис, написанный с учетом всех принципов(правил) REST принято называть RESTful.
+Обмен данных возможен и без REST, но потом могут возникнуть трудности с обменом данных между устройствами.
+RESTful приложение предоставляет список url-адресов, с помощью которых сервер может принимать запросы на получение, хранение, обновление, и удаление данных.
+В REST API сущетсвуют 4 метода HTTP, которые используют для действий с объектами на серверах:
+GET(получение информации о данных или списка объектов)
+DELETE(удаление данных)
+POST(добавление или замена данных)
+PUT(регулярное обновление данных)

@@ -1,9 +1,10 @@
-import User from './User'
+import User from './User';
 import './App.css';
+import AddDocModal from './AddDocModal'
 
 function Profile() {
   return (
-    <div className="Profile">
+    <><div className="Profile">
       <header className="Profile-header">
         <img src="Profile.jpg" className="Profile-logo" alt="logo" />
         <p>
@@ -18,8 +19,8 @@ function Profile() {
           Here is my Github
         </a>
       </header>
-      
     </div>
+    <AddDocModal /></>
   );
 }
 
